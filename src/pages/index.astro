@@ -17,12 +17,8 @@ return a.data.pubDate.valueOf() > b.data.pubDate.valueOf() ? -1 : 1; }).slice(0,
 ---
 
 <DefaultLayout>
-  <HeaderSection />
   <HeroSection client:load />
   <FeaturesCardsSection client:load />
   <FeaturesGrid client:load/>
   <LatestPosts latestPosts = {latestPosts} client:load/>
-  <TestimonialsSection />
-  <CallToAction />
-  <Footer />
 </DefaultLayout>
